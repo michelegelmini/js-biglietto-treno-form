@@ -25,6 +25,7 @@ const myForm = document.getElementById('form-main');
 /* invio del form */
 myForm.addEventListener('submit', function (event) {
     event.preventDefault();
+    document.getElementById('ticket-display').classList.toggle('d-none')
 
     const userKm = document.getElementById('user-km');
 
